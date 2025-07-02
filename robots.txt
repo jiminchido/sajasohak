@@ -3,4 +3,4 @@ layout: none
 ---
 User-agent: *
 Disallow:
-Sitemap: https://jiminchido.github.io/sajasohak/sitemap_location.xml
+Sitemap: https://jiminchido.github.io/sajasohak/sitemap.xml
