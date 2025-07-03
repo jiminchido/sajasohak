@@ -2,5 +2,5 @@
 layout: none
 ---
 User-agent: *
-Disallow:
+Disallow: /do-not-crawl-this-folder/
 Sitemap: https://jiminchido.github.io/sajasohak/sitemap_location.xml
