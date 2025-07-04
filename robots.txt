@@ -1,6 +1,17 @@
 ---
 layout: none
 ---
-User-agent: *
-Disallow: /do-not-crawl-this-folder/
+
+User-agent: Yeti
+Disallow: not-for-naver
+
+User-agent: Googlebot
+Disallow: not-for-naver
+
+User-agent: Bingbot
+Disallow: not-for-naver
+
+User-agent: Daum
+Disallow: not-for-naver
+
 Sitemap: https://jiminchido.github.io/sajasohak/sitemap_location.xml
