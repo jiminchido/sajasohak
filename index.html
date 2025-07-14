@@ -6,110 +6,121 @@
     <meta name="description" content="유교의 기본 덕목과 생활 예절을 담은 한문 교재로, 어린아이들이 한자를 배우고 익히면서 동시에 윤리 도덕을 배우도록 구성되어 있음.">
     <title>사자소학 - 각 구절이 4언 절구로 이루어진 한자교재</title>
     <style>
-      body, html {
-      height: 90%;
-      }
-
-      /* The hero image */
-      .hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("index.png");
-
-        /* Set a specific height */
-        height: 100%;
-
-        /* Position and center the image to scale nicely on all screens */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        top: 75px;
-      }
-
-      /* Place text in the middle of the image */
-      .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: paleturquoise;
-      }
-
-      button {
-        border:0px;
-        outline:none;
-        border-radius:50px;
-        height: 180px;
-        width: 280px;
-        font-size:28px; 
-        margin-top:270px;
-        margin-left:1150px;
-      }
-
-      a {
-        text-decoration-line: none;
-        Color: #A4814F;
-      }
-
-      /* 노트북 & 태블릿 가로 (해상도 1024px ~ 1279px)*/ 
-      @media all and (min-width:1024px) and (max-width:1279px) {
-        button {
-            width: fit-content; /* 콘텐츠 너비만큼만 차지 */
-            text-align: center;
-            margin: 65%;
-            margin-left: 0%;
-            font-size: 20px;
-            height: 120px;
-            width: 180px;   
+        /* 기본 스타일 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* 뷰포트 전체 높이 사용 */
+            font-family: Arial, sans-serif; /* 가독성 좋은 폰트 설정 */
+            overflow-x: hidden; /* 가로 스크롤 방지 */
         }
-      } 
 
-      /* 태블릿 가로 (해상도 768px ~ 1023px)*/ 
-      @media all and (min-width:768px) and (max-width:1023px) {
-        button {
-            width: fit-content; /* 콘텐츠 너비만큼만 차지 */
-            text-align: center;
-            margin: 65%;
-            margin-left: 0%;
-            font-size: 20px;
-            height: 120px;
-            width: 180px;   
+        /* Hero 이미지 */
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("index.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 100vh; /* 뷰포트 높이에 꽉 차게 설정 */
+            display: flex; /* Flexbox를 사용하여 내용 중앙 정렬 */
+            justify-content: center;
+            align-items: center;
+            top: 0; /* 불필요한 top 속성 제거 */
         }
-      } 
 
-      /* 모바일 가로 & 태블릿 세로 (해상도 480px ~ 767px)*/ 
-      @media all and (min-width:480px) and (max-width:767px) {
-        button {
-            width: fit-content; /* 콘텐츠 너비만큼만 차지 */
+        /* Hero 텍스트 (버튼 컨테이너) */
+        .hero-text {
             text-align: center;
-            margin: 65%;
-            margin-left: 0%;
-            font-size: 20px;
-            height: 120px;
-            width: 180px;   
+            /* position: absolute; top, left, transform 제거 - flexbox가 중앙 정렬 담당 */
+            color: paleturquoise;
         }
-      } 
 
-      /* 모바일 세로 (해상도 ~ 479px)*/ 
-      @media all and (max-width:479px) {
+        /* 버튼 스타일 */
         button {
-            width: fit-content; /* 콘텐츠 너비만큼만 차지 */
-            text-align: center;
-            margin: 65%;
-            margin-left: 0%;
-            font-size: 20px;
-            height: 120px;
-            width: 180px;   
+            border: 0px;
+            outline: none;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8); /* 투명한 흰색 배경으로 가독성 향상 */
+            height: 180px;
+            width: 280px;
+            font-size: 28px;
+            cursor: pointer; /* 클릭 가능한 요소임을 표시 */
+            transition: all 0.3s ease; /* 호버 효과를 위한 부드러운 전환 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 은은한 그림자 효과 */
         }
-      }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 1); /* 호버 시 배경색 더 진하게 */
+            transform: translateY(-5px); /* 살짝 위로 뜨는 효과 */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 그림자 진하게 */
+        }
+
+        a {
+            text-decoration-line: none;
+            color: #A4814F;
+            display: block; /* a 태그가 버튼 전체 영역을 차지하도록 */
+            width: 100%;
+            height: 100%;
+            display: flex; /* h1 중앙 정렬을 위해 flexbox 사용 */
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0; /* h1 기본 마진 제거 */
+            font-size: 1em; /* 부모(button)의 font-size 상속 */
+        }
+
+        /* 데스크탑 (기본값) */
+        /* button 스타일은 상단에 이미 정의되어 있으므로 여기서는 수정이 필요한 부분만 오버라이드 */
+
+        /* 노트북 & 태블릿 가로 (해상도 1024px ~ 1279px)*/
+        @media all and (min-width: 1024px) and (max-width: 1279px) {
+            button {
+                height: 150px;
+                width: 220px;
+                font-size: 24px;
+            }
+        }
+
+        /* 태블릿 가로 (해상도 768px ~ 1023px)*/
+        @media all and (min-width: 768px) and (max-width: 1023px) {
+            button {
+                height: 120px;
+                width: 180px;
+                font-size: 20px;
+            }
+        }
+
+        /* 모바일 가로 & 태블릿 세로 (해상도 480px ~ 767px)*/
+        @media all and (min-width: 480px) and (max-width: 767px) {
+            button {
+                height: 100px;
+                width: 160px;
+                font-size: 18px;
+            }
+        }
+
+        /* 모바일 세로 (해상도 ~ 479px)*/
+        @media all and (max-width: 479px) {
+            button {
+                height: 80px;
+                width: 140px;
+                font-size: 16px;
+                border-radius: 40px; /* 작은 화면에 맞게 둥근 정도 조절 */
+            }
+            h1 {
+                font-size: 1.1em; /* 작은 화면에서 h1 크기 살짝 키움 */
+            }
+        }
     </style>
 </head>
 <body>
-  <div class="hero-image">
-  <div class="hero-text">
-    <button><a href="outline.html"><h1>사자소학</h1></a></button>
-  </div>
-  </div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <button><a href="outline.html"><h1>사자소학</h1></a></button>
+        </div>
+    </div>
 </body>
 </html>
