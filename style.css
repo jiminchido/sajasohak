@@ -317,7 +317,7 @@ th {
     table {
         display: block;
         overflow-x: auto;
-        white-space: nowrap; /* 셀 내용이 줄바꿈되지 않도록 */
+        white-space: normal; /* 셀 내용이 줄바꿈되지 않도록 */
     }
     th, td {
         min-width: 120px; /* 작은 화면에서 셀 최소 너비 설정 */
