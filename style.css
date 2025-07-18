@@ -316,7 +316,6 @@ th {
     /* 작은 화면에서 테이블 스크롤 가능하게 */
     table {
         display: block;
-        overflow-x: auto;
         white-space: normal; /* 셀 내용이 줄바꿈되지 않도록 */
     }
     th, td {
