@@ -14,4 +14,4 @@ Disallow: not-for-naver
 User-agent: Daum
 Disallow: not-for-naver
 
-Sitemap: https://jiminchido.github.io/cheonjamoon/sitemap_location.xml
+Sitemap: https://jiminchido.github.io/sajasohak/sitemap_location.xml
