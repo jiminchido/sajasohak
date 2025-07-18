@@ -1,0 +1,21 @@
+POST /IndexNow HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Host: api.indexnow.org
+{
+  "host": "https://jiminchido.github.io/cheonjamoon",
+  "key": "b8eb0ae3b88b413ba9a600e3490e04c5",
+  "keyLocation": "https://https://jiminchido.github.io/cheonjamoon/b8eb0ae3b88b413ba9a600e3490e04c5.txt",
+  "urlList": [
+      "https://jiminchido.github.io/cheonjamoon/url1"
+      "https://jiminchido.github.io/cheonjamoon/contents.html/url2",
+      "https://jiminchido.github.io/cheonjamoon/index.html/url3",
+      "https://jiminchido.github.io/cheonjamoon/outline-1.html/url4"
+      "https://jiminchido.github.io/cheonjamoon/outline-2.html/url5"
+      "https://jiminchido.github.io/cheonjamoon/outline-3.html/url6"
+      "https://jiminchido.github.io/cheonjamoon/outline-4.html/url7"
+      "https://jiminchido.github.io/cheonjamoon/outline-5.html/url8"
+      "https://jiminchido.github.io/cheonjamoon/outline-6.html/url9"
+      "https://jiminchido.github.io/cheonjamoon/outline-7.html/url10"
+      "https://jiminchido.github.io/cheonjamoon/outline-8.html/url11"
+      ]
+}
