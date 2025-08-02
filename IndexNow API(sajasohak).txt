@@ -5,20 +5,19 @@ Host: api.indexnow.org
   "host": "https://jiminchido.github.io/sajasohak",
   "key": "88db2f415c194f3ab3c5340265fc8170",
   "keyLocation": "https://jiminchido.github.io/sajasohak/88db2f415c194f3ab3c5340265fc8170.txt",
-  "urlList": [
+   "urlList": [
       "https://jiminchido.github.io/sajasohak/url1"
-      "https://jiminchido.github.io/sajasohak/outline.html/url2",
-      "https://jiminchido.github.io/sajasohak/index.html/url3",
-      "https://jiminchido.github.io/sajasohak/contents-1.html/url4"
-      "https://jiminchido.github.io/sajasohak/contents-2.html/url5"
-      "https://jiminchido.github.io/sajasohak/contents-3.html/url6"
-      "https://jiminchido.github.io/sajasohak/contents-4.html/url7"
-      "https://jiminchido.github.io/sajasohak/contents-5.html/url8"
-      "https://jiminchido.github.io/sajasohak/contents-6.html/url9"
-      "https://jiminchido.github.io/sajasohak/contents-7.html/url10"
-      "https://jiminchido.github.io/sajasohak/contents-8.html/url11"
-      "https://jiminchido.github.io/sajasohak/contents-9.html/url12"
-      "https://jiminchido.github.io/sajasohak/contents-10.html/url13"
-      "https://jiminchido.github.io/sajasohak/contents-11.html/url14"
+      "https://jiminchido.github.io/sajasohak/index.html/url2",
+      "https://jiminchido.github.io/sajasohak/contents-1.html/url3"
+      "https://jiminchido.github.io/sajasohak/contents-2.html/url4"
+      "https://jiminchido.github.io/sajasohak/contents-3.html/url5"
+      "https://jiminchido.github.io/sajasohak/contents-4.html/url6"
+      "https://jiminchido.github.io/sajasohak/contents-5.html/url7"
+      "https://jiminchido.github.io/sajasohak/contents-6.html/url8"
+      "https://jiminchido.github.io/sajasohak/contents-7.html/url9"
+      "https://jiminchido.github.io/sajasohak/contents-8.html/url10"
+      "https://jiminchido.github.io/sajasohak/contents-9.html/url11"
+      "https://jiminchido.github.io/sajasohak/contents-10.html/url12"
+      "https://jiminchido.github.io/sajasohak/contents-11.html/url13"
       ]
 }

@@ -10,27 +10,19 @@
         <generator>수동 생성</generator> <!--대부분 유료로 운영되는 것 같아서 내가 직접 만듬.-->
 
         <item>
-            <title>메인화면</title>
+            <title>사자소학ㆍ한자책모음</title>
             <link>https://jiminchido.github.io/sajasohak/</link>
-            <description>목차를 클릭 할 수 있는 버튼이 있습니다.</description>
+            <description>사자소학 목차에는 11개의 세부 제목과 한자책모음이 있습니다.</description>
             <pubDate>Mon, 23 Jun 2025 15:30:00 KST</pubDate>
             <guid isPermaLink="true">https://jiminchido.github.io/sajasohak/</guid>
         </item>
 
         <item>
-            <title>메인화면</title>
+            <title>사자소학ㆍ한자책모음</title>
             <link>https://jiminchido.github.io/sajasohak/index.html</link>
-            <description>목차를 클릭 할 수 있는 버튼이 있습니다.</description>
+            <description>사자소학 목차에는 11개의 세부 제목과 한자책모음이 있습니다.</description>
             <pubDate>Mon, 23 Jun 2025 15:30:00 KST</pubDate>
             <guid isPermaLink="true">https://jiminchido.github.io/sajasohak/index.html</guid>
-        </item>
-        
-        <item>
-            <title>사자소학 목차</title>
-            <link>https://jiminchido.github.io/sajasohak/contents.html</link>
-            <description>사자소학 목차에는 11개의 세부 제목이 있습니다.</description>
-            <pubDate>Mon, 23 Jun 2025 15:30:00 KST</pubDate>
-            <guid isPermaLink="true">https://jiminchido.github.io/sajasohak/contents.html</guid>
         </item>
 
         <item>
